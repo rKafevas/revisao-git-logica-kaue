@@ -1,0 +1,16 @@
+Lógica dedutiva no Git: O Git aplica lógica dedutiva ao partir de premissas claras — o último commit e o estado atual do diretório. Com base nesses fatos, ele conclui quais arquivos mudaram, quais estão staged e quais não estão. Comandos como git status e git log retornam resultados previsíveis e consistentes a partir dessas premissas.
+
+=========================Questões que Thalyta pediu ontem===============================
+
+1 - É bom porque o git possibilita o acompanhamento exato do que mudou, a hora da mudança e quem foi o responsável. Isso é massa porque deixa um histórico organizado do projeto. Ou seja, se der algum problema na aplicação é possível identificar a causa e o momento rapidamente e voltar nas versões anteriores.
+
+2 - A branch segue o pensamento computacional porque ela serve para "quebrar" um problema grande em partes menores. Cada branch é uma tarefa isolada (seja uma feature, correção de bug, enfim) e pode ser codada sem interferir no resto do projeto. É bom porque deixa o projeto mais organizado, evita conflito (quando todos sabem usar) e permite que o sistema evolua de forma independente e controlada.
+
+3 - O commit registra todas as alterações feitas no código. Esse registro contínuo cria um tipo de linha do tempo daquele projeto, facilitando o rastreamento e a percepção de evolução. Daí isso vai conectar-se com o pensamento computacional porque cria um processo lógico, estruturado e sistemático.
+
+4 - O indutivo parte de casos particulares para criar uma conclusão geral. Tipo: eu vi um grupo de passarinhos voando e concluo que todo passarinho voa. Isso é apenas uma conclusão provável e não certeira.
+O dedutivo parte de premissas gerais verdadeiras para chegar a uma conclusão verdadeira também. Tudo vai depender das premissas. Ex: Todo mamífero respira. Todo cachorro é mamífero. Logo, o cachorro respira.
+A lógica é necessária nessas áreas porque ajuda a organizar ideias, estruturar hipóteses e criar modelos confiáveis. Sem ela, não daria para programar, provar teoremas, etc. 
+Confundir os conceitos é errado porque deduzir partie de uma ideia geral pra chegar a algo particular correta. Já a indução é partir de algo específico e criar um raciocínio geral.
+
+5 - Quando usamos o comando git status, ele realiza uma análise lógica do repositório comparando o estado atual dos arquivos com o último commit, permitindo identificar o que mudou, o que foi adicionado ou o que ainda não está preparado para ser salvo. Já o git diff faz comparações diretas entre duas versões e mostra exatamente quais linhas foram alteradas, adicionadas ou removidas, sem fazer previsões ou interpretações. O comando git log, por sua vez, apresenta uma sequência organizada dos commits, o que nos permite deduzir como o projeto evoluiu ao longo do tempo, identificando a ordem das modificações, seus autores e o caminho que levou ao estado atual. No geral, o Git se apoia em uma lógica dedutiva, pois cada comando parte de informações claras e definidas sobre o estado do repositório e, a partir delas, produz resultados previsíveis, seguindo regras fixas e estruturadas.
