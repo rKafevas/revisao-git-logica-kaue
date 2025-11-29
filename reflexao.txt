@@ -2,6 +2,8 @@ Lógica dedutiva no Git: O Git aplica lógica dedutiva ao partir de premissas cl
 
 Decomposição e branches: A criação de branches representa decomposição do trabalho em partes independentes. Cada branch isola uma tarefa/feature, permitindo que mudanças sejam desenvolvidas separadamente e integradas depois. Isso organiza o desenvolvimento e facilita a manutenção.
 
+
+#Mudança percebida no git diff: acréscimo de um parágrafo em reflexao.txt.
 =========================Questões que Thalyta pediu ontem===============================
 
 1 - É bom porque o git possibilita o acompanhamento exato do que mudou, a hora da mudança e quem foi o responsável. Isso é massa porque deixa um histórico organizado do projeto. Ou seja, se der algum problema na aplicação é possível identificar a causa e o momento rapidamente e voltar nas versões anteriores.
